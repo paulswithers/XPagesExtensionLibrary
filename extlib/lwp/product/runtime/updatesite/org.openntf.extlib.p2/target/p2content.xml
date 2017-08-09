@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='201708091045.Default' version='1.0.0.8P-79cLdELlE8MIJrTOvq13Mp8Cw'>
+    <properties size='3'>
+      <property name='org.eclipse.equinox.p2.name' value='Uncategorized'/>
+      <property name='org.eclipse.equinox.p2.description' value='Default category for otherwise uncategorized features'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201708091045.Default' version='1.0.0.8P-79cLdELlE8MIJrTOvq13Mp8Cw'/>
+    </provides>
+    <requires size='5'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.openntf.extlib.relational.feature.feature.group' range='[9.0.1.v00_17_SNAPSHOT,9.0.1.v00_17_SNAPSHOT]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.openntf.extlib.wink.feature.feature.group' range='[9.0.1.v00_17_SNAPSHOT,9.0.1.v00_17_SNAPSHOT]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.openntf.extlib.domino.das.feature.feature.group' range='[9.0.1.v00_17_SNAPSHOT,9.0.1.v00_17_SNAPSHOT]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.openntf.extlib.feature.feature.group' range='[9.0.1.v00_17_SNAPSHOT,9.0.1.v00_17_SNAPSHOT]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.openntf.extlib.apache.wink.feature.feature.group' range='[9.0.1.v00_17_SNAPSHOT,9.0.1.v00_17_SNAPSHOT]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>
